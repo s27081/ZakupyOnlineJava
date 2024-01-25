@@ -11,11 +11,15 @@ public class ProductStorage {
     static List<Product> productList = new ArrayList<>();
 
 
-    public static List<Product> getProductList() {
+    public List<Product> getProductList() {
         return productList;
     }
 
-    public static void setProductList(List<Product> productList) {
+    public void setProductList(List<Product> productList) {
         ProductStorage.productList = productList;
+    }
+
+    public void addProduct(Product product){
+        productList.add(product);
     }
 }

@@ -9,7 +9,7 @@ import java.util.List;
 public class OrderStorage {
     static List<Order> orderStorageList = new ArrayList<>();
 
-    public static List<Order> getOrderStorageList() {
+    public List<Order> getOrderStorageList() {
         return orderStorageList;
     }
 

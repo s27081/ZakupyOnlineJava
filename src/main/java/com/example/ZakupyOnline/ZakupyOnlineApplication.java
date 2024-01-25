@@ -19,7 +19,7 @@ public class ZakupyOnlineApplication {
 		this.productStorage = productStorage;
 		this.orderStorage = orderStorage;
 
-		init_process();
+		//init_process();
 	}
 
 	public void init_process(){
